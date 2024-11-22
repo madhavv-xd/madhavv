@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  section {
+    padding: 2rem 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Skills */
+  .skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .skill {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  /* Projects */
+  .project {
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi! I'm a passionate web developer with skills in creating dynamic and responsive websites. I enjoy solving problems and learning new technologies.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Bootstrap</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>A random quote generator built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>A responsive portfolio website.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 My Portfolio. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
